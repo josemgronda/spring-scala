@@ -1,7 +1,8 @@
 # Platform for Recommendations and Purchase Analysis
 
-This project seeks to build a modular platform to record user purchases, analyse them through distributed processing (Apache Spark) and generate personalised recommendations based on purchase history.
+> Build a modern backend with DDD + event streaming + distributed processing.
 
+![Architecture Preview](projectLogo.png)
 ---
 
 ## 🧠 Project Idea
