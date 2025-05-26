@@ -6,7 +6,15 @@ This project seeks to build a modular platform to record user purchases, analyse
 
 ## 🧠 Project Idea
 
-The objective is to develop an architecture that combines good backend practices (DDD, hexagonal architecture, domain events) with big data processing technologies. By registering purchase events, a data stream is generated which will be processed to create personalised recommendations for users.
+The goal is to develop an architecture that combines:
+
+- ✅ **Domain-Driven Design**
+- 🧱 **Hexagonal Architecture**
+- ⚡ **Event-driven communication**
+- 🔥 **Big Data processing (Spark)**
+
+All together to deliver **real-time personalized recommendations** based on user purchase history.
+
 
 ---
 
@@ -21,6 +29,7 @@ The objective is to develop an architecture that combines good backend practices
 ![Testcontainers](https://img.shields.io/badge/Testcontainers-Testing-informational)
 ![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker)
 
+---
 
 ## 🧩 Modelling and Relationships
 
