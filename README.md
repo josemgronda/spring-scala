@@ -21,7 +21,13 @@ The objective is to develop an architecture that combines good backend practices
 - PostgreSQL** (or other relational database)
 - Gradle** (dependency management)
 - Testcontainers** (for testing in isolation with infrastructure)
-
+![Java](https://img.shields.io/badge/Java-21-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-brightgreen)
+![Kafka](https://img.shields.io/badge/Kafka-Event%20Streaming-000000?logo=apachekafka)
+![Spark](https://img.shields.io/badge/Spark-Data%20Processing-FDEE21?logo=apache)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Relational%20DB-336791?logo=postgresql)
+![Gradle](https://img.shields.io/badge/Gradle-Build%20Tool-02303A?logo=gradle)
+![Testcontainers](https://img.shields.io/badge/Testcontainers-Testing-informational)
 ---
 
 ## 🧩 Modelling and Relationships
