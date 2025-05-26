@@ -26,14 +26,14 @@ The objective is to develop an architecture that combines good backend practices
 
 ## 🧩 Modelling and Relationships
 
-### Main entities:
+### 📦 Main entities:
 
 - **User**: registered user.
-- Product**: product available for purchase.
-- Purchase**: represents a purchase made.
-- Recommendation**: recommendation generated to a user.
+- **Product**: product available for purchase.
+- **Purchase**: represents a purchase made.
+- **Recommendation**: recommendation generated to a user.
 
-### Relationships:
+### 🔗 Relationships:
 
 ```plaintext
 [User] 1 --- * [Purchase] * --- 1 [Product]
@@ -41,7 +41,7 @@ The objective is to develop an architecture that combines good backend practices
 [User] 1 --- * [Recommendation] * --- --- 1 [Product]
 ```
 
-### Events:
+### 📡Events:
  
 | Event                          | Description                                          |
 | ------------------------------ | ---------------------------------------------------- |
@@ -61,11 +61,11 @@ The objective is to develop an architecture that combines good backend practices
 ### 🏗️ Architecture
 A hexagonal architecture is adopted, with clear separation between:
 
-Domain: business logic, entities, events, value objects.
+🔸 Domain: business logic, entities, events, value objects.
 
-Application: use cases and orchestration.
+🔸 Application: use cases and orchestration.
 
-Infrastructure: technical integration with database, events, Spark, etc.
+🔸 Infrastructure: technical integration with database, events, Spark, etc.
 
-Modular structure in a single microservice:
+Modular structure in a single microservice. In the future I want to create one microservices for any bounded context.
 
