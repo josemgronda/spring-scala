@@ -39,6 +39,7 @@ The objective is to develop an architecture that combines good backend practices
 [User] 1 --- * [Purchase] * --- 1 [Product]
 
 [User] 1 --- * [Recommendation] * --- --- 1 [Product]
+````plaintext
 
 ### Events:
  
