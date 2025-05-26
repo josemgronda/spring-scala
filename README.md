@@ -1,9 +1,11 @@
 # Platform for Recommendations and Purchase Analysis
 
 > Build a modern backend with DDD + event streaming + distributed processing.
+
 <p align="center">
-  <img src="projectLogo.png" alt="Logo" width="200" />
+  <img src="projectLogo.png" alt="Logo" width="500" />
 </p>
+
 ---
 
 ## 🧠 Project Idea
