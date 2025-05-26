@@ -68,11 +68,11 @@ All together to deliver **real-time personalized recommendations** based on user
 ### 🏗️ Architecture
 A hexagonal architecture is adopted, with clear separation between:
 
-🔸 Domain: business logic, entities, events, value objects.
+🔸 **Domain**: business logic, entities, events, value objects.
 
-🔸 Application: use cases and orchestration.
+🔸 **Application**: use cases and orchestration.
 
-🔸 Infrastructure: technical integration with database, events, Spark, etc.
+🔸 **Infrastructure**: technical integration with database, events, Spark, etc.
 
 Modular structure in a single microservice. In the future I want to create one microservices for any bounded context.
 
